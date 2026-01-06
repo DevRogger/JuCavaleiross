@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'd';
+    src: url('font/Utendo-Bold.ttf'),format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----TITULO----*/
+
+.back-img {
+    background-color: rgba(204, 28, 28, 0);
+    width: 320px;
+}
+
+#logo {
+    width: 260px;
+}
+
+.backju {
+    background-image: url(imagem/colar1.webp);
+    background-color: rgb(255, 245, 212);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+
+/*-----MENU----*/
+
+.icone {
+    position: absolute;
+    cursor: pointer;
+}
+
+#item-icone {
+    position: relative;
+    font-size: 40px;
+    color: rgb(160, 120, 67);
+    display: none;
+}
+
+.menu { 
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#item-menu {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family:'d';
+    text-decoration: none;
+    margin-right: 25px;
+    position: relative;
+    top: -200px;
+    left: 700px;
+    color: rgb(160, 120, 67);
+}
+
+.backmenu {
+    background-color: rgba(0, 0, 255, 0);
+    justify-content: center;
+    display: flex;
+}
+
+/*-----BOX-ITEM-----*/
+
+.back-box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#item-box {
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+}
