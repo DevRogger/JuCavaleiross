@@ -5,6 +5,8 @@ bortao.addEventListener('click',()=>{
   conteudo.classList.toggle('ativar')
 })
 
-fetch('https://api.github.com/users/vajka').then(Response => Response.json())
+fetch(' https://developer.themoviedb.org/docs/getting-started').then(Response => Response.json())
 
 .then(json => console.log(json));
+
+

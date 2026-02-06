@@ -83,17 +83,13 @@
     display: flex;
 }
 
-h2 {
-    font-size: 35px;
-}
-
 /*-----BOX-ITEM-----*/
 
 .back-box {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #item-box {
@@ -105,26 +101,66 @@ h2 {
     border-radius: 20px;
 }
 
-h2, h3 {
+.valor,.free {
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0);
     text-align: justify;
     margin-left: 30px;
     margin-top: 20px;
 }
 
+    .mais-vendido,.destaques {
+        font-size: 23px;
+        text-decoration: underline;
+        text-decoration-color: rgb(238, 188, 113);
+        text-decoration-thickness: 3px;
+        text-underline-offset: 10px;
+        margin-left: 177px;
+        margin-top: 35px;
+     }
 
-/*-----BOX GARANTIA------*/
 
-.back-garantia {
+/*-----BOX-2 ------*/
+
+.back-box2 {
     display: flex;
-    justify-content: space-around;
-    background-color: red;
+    justify-content: space-evenly;
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 50px;
 
 }
 
-#item-garantia {
+#item-box1 {
     width: 400px;
     height: 500px;
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(243, 243, 243);
     align-content: center;
     text-align: center;
+    border-radius: 20px;
+}
+
+/*-----CARTAO-VEZES------*/ 
+
+.back-mulher {
+display: flex;
+justify-content: end;
+background-color: rgb(235, 209, 125);
+width: 1860px;
+}
+
+.cartao-vezes {
+ width: 100%;
+ background-color: rgba(255, 0, 0, 0);
+ display: flex;
+ justify-content: center;
+ margin-top: 70px;
+}
+
+#mulher {
+width: 700px;
+
+}
+
+.back-extra {
+    display: none;
 }
