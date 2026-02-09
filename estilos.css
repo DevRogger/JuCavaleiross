@@ -47,8 +47,6 @@
 }
 
 .menu { 
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
     background-color: rgba(255, 0, 0, 0);
 }
 
@@ -61,8 +59,7 @@
     position: relative;
     top: -73px;
     left: 700px;
-    color: rgb(160, 120, 67);
-    transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
 #item-menu1:hover {
@@ -142,25 +139,42 @@
 /*-----CARTAO-VEZES------*/ 
 
 .back-mulher {
-display: flex;
-justify-content: end;
-background-color: rgb(235, 209, 125);
-width: 1860px;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(235, 209, 125);
+    width: 81%;
 }
 
 .cartao-vezes {
- width: 100%;
- background-color: rgba(255, 0, 0, 0);
- display: flex;
- justify-content: center;
- margin-top: 70px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
-#mulher {
-width: 700px;
+#mulher { 
+    width: 700px;
 
+}
+
+.extra2{
+    position: relative;
+}
+#vezes2{
+    position: absolute;
+    left: -1300px;
+    bottom: 100px;
+    font-size: 80px;
+    background-color: rgba(255, 0, 0, 0);
+    width: 500px;
+    display: flex;
+}
+
+.extra {
+    display: none;
 }
 
 .back-extra {
-    display: none;
+    display: flex;
 }
