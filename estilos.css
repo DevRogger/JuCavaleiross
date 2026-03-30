@@ -31,6 +31,33 @@
     height: 100vh;
 }
 
+/*-----ICONE DE PESQUISA----*/
+
+
+.back-icone {
+    position:absolute;
+    margin-left: 50px;
+    
+}
+
+#jconi {
+    position: relative;
+    top: -70px;
+    font-size: 30px;
+    color: rgb(160, 120, 67);
+    cursor: pointer;
+}
+
+#jconi:hover{
+    transform: scale(1.2);
+    transition-duration: 00.2s;
+}
+
+.back-pvb.active {
+    transform: translate(-0%);
+    opacity: 1;
+}
+
 
 /*-----MENU----*/
 
@@ -53,31 +80,150 @@
 .item-menu {
     color: rgb(160, 120, 67);
     font-size: 24px;
-    font-family:'d';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     margin-right: 25px;
     position: relative;
-    top: -73px;
+    top: -680px;
     left: 700px;
-  transition-duration: 0.2s;
-}
-
-#item-menu1:hover {
-    font-size: 28px;
-}
-
-#item-menu2:hover {
-    font-size: 28px;
-}
-
-#item-menu3:hover {
-    font-size: 28px;
+    transition: transform 0.2s ease;
 }
 
 .backmenu {
     background-color: rgba(0, 0, 255, 0);
     justify-content: center;
     display: flex;
+}
+
+.item-menu:hover {
+    font-size: 27px;
+}
+
+/*------MENU-CELULAR------*/
+
+.backmenu2 {
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    border-radius: 0px 15px 15px 00px;
+    height: 400px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.menu2 > a {
+    display: block;
+    line-height: 120px;
+    font-size: 35px; 
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+
+/*-----PESQUISA----*/
+
+.back-pvb {
+    transform: translate(-110%);
+    transition-duration: 1s;
+    background-color: rgba(255, 0, 0, 0);
+    width: 400px;
+    height: 600px;
+    opacity: 0;
+}
+
+.back_pesquisa {
+    position: absolute;
+    display: flex;
+}
+
+#pesquisa {
+    position: relative;
+    top: 84px;
+    left: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 5px;
+}
+
+.lista {
+    background-color: rgb(255, 255, 255);
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 0px 10px 20px 0px;
+    box-shadow: 2px 3px 20px 1px;
+}
+
+.back_valor{
+    position: absolute;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0);
+    width: 200px;
+    left: 200px;
+    bottom: -84px;
+}
+
+#ivalor {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.procototal {
+    position: absolute;
+    position: relative;
+    top: -100px;
+    font-size: 25px;
+    margin-left: 110px;
+}
+
+.item {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.item-nome {
+    font-size: 30px;
+    line-height: 100px;
+    margin-top: 100px;
+}
+
+.item-preço {
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.back-bortao {
+    position: absolute;
+}
+
+#bortao {
+    position: relative;
+    top: 53px;
+    left: 320px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 13px;
+    background-color: white;
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+
 }
 
 /*-----BOX-ITEM-----*/
@@ -89,13 +235,19 @@
     justify-content: space-evenly;
 }
 
+#img-colar{
+    background-color: rgba(241, 236, 228, 0);
+    width: 330px;
+}
+
 #item-box {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     width: 400px;
     height: 500px;
     align-content: center;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 2px 3px 20px 1px rgba(146, 146, 146, 0.521);
 }
 
 .valor,.free {
@@ -106,16 +258,21 @@
     margin-top: 20px;
 }
 
-    .mais-vendido,.destaques {
-        font-size: 23px;
-        text-decoration: underline;
-        text-decoration-color: rgb(238, 188, 113);
-        text-decoration-thickness: 3px;
-        text-underline-offset: 10px;
-        margin-left: 177px;
-        margin-top: 35px;
-     }
+/*-----H2,H1,H3-----*/
 
+.mais-vendido,.destaques {
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-color: rgb(238, 188, 113);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    margin-left: 177px;
+    margin-top: 300px;
+}
+
+.destaques {
+    margin-top: 100px;
+}
 
 /*-----BOX-2 ------*/
 
@@ -130,10 +287,24 @@
 #item-box1 {
     width: 400px;
     height: 500px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     align-content: center;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 2px 3px 20px 1px rgba(146, 146, 146, 0.521);
+}
+
+.valor,.free {
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0);
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#pulseira-img {
+    width: 330px;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 /*-----CARTAO-VEZES------*/ 
@@ -143,6 +314,8 @@
     justify-content: end;
     background-color: rgb(235, 209, 125);
     width: 81%;
+    border-radius: 15px;
+    margin-top: 90px;
 }
 
 .cartao-vezes {
@@ -158,10 +331,11 @@
 
 }
 
-.extra2{
+.extra2 {
     position: relative;
 }
-#vezes2{
+
+#vezes2 {
     position: absolute;
     left: -1300px;
     bottom: 100px;
@@ -178,3 +352,204 @@
 .back-extra {
     display: flex;
 }
+
+
+/*-----SLIDE-----*/
+
+.back-slide {
+    display: flex;    
+    background-color: red;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.radio-container {
+    display: flex;
+    background-color: rgba(102, 51, 153, 0);
+    position: absolute;
+    left: 860px;
+    margin-top: 400px;
+    transform: scale(1.5);
+}
+
+.radio-container input[type="radio"]{
+    position: relative;
+    margin-left: 20px;
+
+}
+
+/* Container que segura e corta o slide */
+
+.uou {
+    background-color: rgba(102, 51, 153, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+/* Container que se move */
+
+.back-slide {
+  overflow: hidden;
+  width: 1490px;
+  height: 500px;
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.5s ease;
+  background-color: aqua;
+}
+
+.item-slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+
+.back-botao{
+    position: absolute;
+}
+
+.btn-prev, .btn-next{
+    position: relative;
+    left: 600px;
+    top: -100px;
+}
+
+.item-slide.ativa {
+    display: block;
+}
+
+/*------bug------*/
+
+.back-h1,.back-h2,.back-h3 {
+
+    position: absolute;
+    display: flex;
+    left: 300px;
+    margin-top: 50px;
+}
+
+.back-123 {
+    opacity: 0;
+    display: none;
+}
+
+.back-123.active {
+   opacity: 0;
+   display: none;
+    
+}
+
+.h1, .h2, .h3 {
+    display: none;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.back-h1 p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-h2 p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-h3 p {
+    font-size:25px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-h1 {
+    background-color: rgba(201, 172, 118, 0.541);
+    width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+}
+
+.back-h2 {
+    background-color: rgba(163, 163, 161, 0.541);
+    width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+}
+
+.back-h3 {
+    background-color: rgba(163, 163, 161, 0.541);
+    width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+}
+
+.active {
+    display: block;
+}
+
+.opt {
+    display: none;
+}
+
+/*------RODA-PE------*/
+
+.back-roda {
+    display: flex;
+    background-color: rgb(228, 199, 146);
+    margin-top: 150px;
+}
+
+.roda {
+    display: flex;
+
+}
+
+.back-img-roda {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    padding: -10px;
+}
+
+#img-roda {
+    width: 170px;
+}
+
+.roda {
+  align-self: center;
+  justify-content: space-around;
+  background-color: rgba(0, 255, 255, 0);
+  width: 900px;
+  
+}
+
+.back-roda .roda h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-decoration: underline rgb(148, 103, 7) 3px;
+}
+
+.back-roda .roda a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.back-roda .roda a:hover{
+    text-decoration:underline;
+} 
+
+
+
+
+
+
+
+
+

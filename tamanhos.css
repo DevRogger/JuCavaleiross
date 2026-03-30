@@ -29,7 +29,7 @@
         display: block;
         position: relative;
         background-color: rgba(21, 255, 0, 0);
-        top: -55px;
+        top: -655px;
         left: 310px;
         font-size: 38px;
     }
@@ -39,7 +39,7 @@
         transform: translate(-100%);
     }
 
-     .mais-vendido,.destaques {
+    .mais-vendido,.destaques {
         font-size: 23px;
         text-decoration: underline;
         text-decoration-color: rgb(238, 188, 113);
@@ -91,6 +91,10 @@
 
     }
 
+    .mais-vendido {
+        margin-top:-300px;
+    } 
+
     /*-----BOX-ITEM-2-----*/
 
     .back-box2 {
@@ -104,50 +108,133 @@
         margin-top: 50px;
     }
     
+    #pulseira-img {
+ 
+        width: 300px;
+    } 
 
     /*-----CARTAO-VEZES------*/ 
 
-.back-mulher {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(235, 209, 125);
-    width: 80%;
-    border-radius: 15px 15px 0px 0px;
-}
+    .back-mulher {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(235, 209, 125);
+        width: 80%;
+        border-radius: 15px 15px 0px 0px;
+    }
 
-.cartao-vezes {
-    max-width: 100%;
-    background-color: rgba(4, 0, 255, 0);
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 70px;
-}
+    .cartao-vezes {
+        max-width: 100%;
+        background-color: rgba(4, 0, 255, 0);
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 70px; 
+    }
 
-#mulher {
-    width:80%;
-}
+    #mulher {
+        width:80%;
+    }
 
-.back-extra {
-    display: flex;
-    background-color:  rgb(247, 247, 247);
-    justify-content: center;
-    height: 300px;
-    width: 80%;
+    .back-extra {
+        display: flex;
+        background-color:  rgb(247, 247, 247);
+        justify-content: center;
+        height: 300px;
+        width: 80%;
+    }
 
-}
+    #vezes {
+        font-size: 40px;
+        background-color: rgba(223, 223, 223, 0);
+        margin-left: 40px;
+        width: 250px;
+    }
 
-#vezes {
-    font-size: 40px;
-    background-color: rgba(223, 223, 223, 0);
-    margin-left: 40px;
-    width: 250px;
-}
+    .extra {
+        display: flex;
+        background-color: rgb(247, 247, 247);
+        align-items: center;
+    }
 
-.extra {
-   display: flex;
-   background-color: rgb(247, 247, 247);
-   align-items: center;
-}
+    /*------PESQUISA------*/
+    
+    .back-icone {
+        position:absolute;
+        margin-left: 30px;
+    }
+
+    #jconi {
+        position: relative;
+        top: -50px;
+        font-size: 25px;
+        color: rgb(160, 120, 67);
+        cursor: pointer;
+    }
+
+    /*------SLIDER-------*/
+
+    .radio-container {
+        display: flex;
+        background-color: rgba(102, 51, 153, 0);
+        position: absolute;
+        left: 120px;
+        margin-top: 250px;
+        transform: scale(1.5);
+    }
+
+    .back-slide {
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+    }
+
+    /*-----RODA-PE----*/
+
+    #img-roda {
+        width: 100px;
+    }
+
+    .back-roda {
+        display: flex;
+        background-color: rgb(228, 199, 146);
+        margin-top: 150px;
+        height: 200px;
+    }
+
+    /*------MENU-CELULAR------*/
+
+    .backmenu2 {
+        display: flex;
+        position: absolute;
+        background-color: rgb(252, 252, 252);
+        top: 110px;
+        box-shadow: 2px 3px 20px 1px; 
+        border-radius: 0px 15px 15px 00px;
+        height: 400px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-120%);
+        opacity: 0;
+    }
+
+    .menu2 > a {
+        position: relative;
+        display: block;
+        line-height: 120px;
+        font-size: 35px; 
+        text-decoration: none;
+        color: black;
+    }
+
+    .backmenu2.ativar {
+        transform: translate(0%);
+        opacity: 1;
+    }
+
+    #jconi {
+
+    }
 
 }
